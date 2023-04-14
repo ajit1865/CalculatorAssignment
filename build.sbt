@@ -7,3 +7,8 @@ lazy val root = (project in file("."))
     name := "SbtCalculator"
   )
 libraryDependencies += "org.scalatest"  %% "scalatest"   % "3.2.15"   % Test
+
+libraryDependencies ++= Seq(
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+  "ch.qos.logback" % "logback-classic" % "1.3.5"
+)
