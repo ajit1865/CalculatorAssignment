@@ -1,4 +1,3 @@
-# Methods to check equality 
 
 ## What is scala
 
